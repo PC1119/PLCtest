@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070C204B1C49DF52009603CA /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070C20491C49DF52009603CA /* OrderViewController.m */; };
+		070C204C1C49DF52009603CA /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070C204A1C49DF52009603CA /* OrderViewController.xib */; };
+		0726CC941C48ED180048F506 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726CC921C48ED180048F506 /* SetViewController.m */; };
+		0726CC951C48ED180048F506 /* SetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0726CC931C48ED180048F506 /* SetViewController.xib */; };
+		0726CC981C48FDAB0048F506 /* plcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726CC971C48FDAB0048F506 /* plcModel.m */; };
 		078ADBB31C434DF700E79E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 078ADBB21C434DF700E79E6D /* main.m */; };
 		078ADBB61C434DF700E79E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 078ADBB51C434DF700E79E6D /* AppDelegate.m */; };
 		078ADBB81C434DF700E79E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078ADBB71C434DF700E79E6D /* Assets.xcassets */; };
 		078ADBBB1C434DF700E79E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078ADBB91C434DF700E79E6D /* LaunchScreen.storyboard */; };
 		078ADBC61C434DF800E79E6D /* PLCtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078ADBC51C434DF800E79E6D /* PLCtestTests.m */; };
 		078ADBD11C434DF800E79E6D /* PLCtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078ADBD01C434DF800E79E6D /* PLCtestUITests.m */; };
+		07B60D1B1C449518004E9362 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B60D191C449518004E9362 /* MainViewController.m */; };
+		07B60D1C1C449518004E9362 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B60D1A1C449518004E9362 /* MainViewController.xib */; };
+		07CD80221C4CD59F000E89CD /* ParkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD80201C4CD59F000E89CD /* ParkViewController.m */; };
+		07CD80231C4CD59F000E89CD /* ParkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CD80211C4CD59F000E89CD /* ParkViewController.xib */; };
+		48894F344BA577956B96B1B1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 912B21618F5353B0552EF9F3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070C20481C49DF52009603CA /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		070C20491C49DF52009603CA /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		070C204A1C49DF52009603CA /* OrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderViewController.xib; sourceTree = "<group>"; };
+		070C204D1C49F09E009603CA /* pre.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pre.pch; sourceTree = "<group>"; };
+		0726CC911C48ED180048F506 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		0726CC921C48ED180048F506 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		0726CC931C48ED180048F506 /* SetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetViewController.xib; sourceTree = "<group>"; };
+		0726CC961C48FDAB0048F506 /* plcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plcModel.h; sourceTree = "<group>"; };
+		0726CC971C48FDAB0048F506 /* plcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plcModel.m; sourceTree = "<group>"; };
 		078ADBAE1C434DF700E79E6D /* PLCtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLCtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078ADBB21C434DF700E79E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		078ADBB41C434DF700E79E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +65,15 @@
 		078ADBCC1C434DF800E79E6D /* PLCtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLCtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078ADBD01C434DF800E79E6D /* PLCtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLCtestUITests.m; sourceTree = "<group>"; };
 		078ADBD21C434DF800E79E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B60D181C449518004E9362 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		07B60D191C449518004E9362 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		07B60D1A1C449518004E9362 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		07CD801F1C4CD59F000E89CD /* ParkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkViewController.h; sourceTree = "<group>"; };
+		07CD80201C4CD59F000E89CD /* ParkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkViewController.m; sourceTree = "<group>"; };
+		07CD80211C4CD59F000E89CD /* ParkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParkViewController.xib; sourceTree = "<group>"; };
+		912B21618F5353B0552EF9F3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B275D0D2237EB118164FC3F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B29161EFFE7E7F311CA66F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48894F344BA577956B96B1B1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +109,8 @@
 				078ADBC41C434DF800E79E6D /* PLCtestTests */,
 				078ADBCF1C434DF800E79E6D /* PLCtestUITests */,
 				078ADBAF1C434DF700E79E6D /* Products */,
+				3F40FF4467497A76B142D63D /* Pods */,
+				B1360B54B7903A8D18F35993 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +127,23 @@
 		078ADBB01C434DF700E79E6D /* PLCtest */ = {
 			isa = PBXGroup;
 			children = (
+				070C204D1C49F09E009603CA /* pre.pch */,
 				078ADBB41C434DF700E79E6D /* AppDelegate.h */,
 				078ADBB51C434DF700E79E6D /* AppDelegate.m */,
+				0726CC911C48ED180048F506 /* SetViewController.h */,
+				0726CC921C48ED180048F506 /* SetViewController.m */,
+				0726CC931C48ED180048F506 /* SetViewController.xib */,
+				0726CC961C48FDAB0048F506 /* plcModel.h */,
+				0726CC971C48FDAB0048F506 /* plcModel.m */,
+				070C20481C49DF52009603CA /* OrderViewController.h */,
+				070C20491C49DF52009603CA /* OrderViewController.m */,
+				070C204A1C49DF52009603CA /* OrderViewController.xib */,
+				07CD801F1C4CD59F000E89CD /* ParkViewController.h */,
+				07CD80201C4CD59F000E89CD /* ParkViewController.m */,
+				07CD80211C4CD59F000E89CD /* ParkViewController.xib */,
+				07B60D181C449518004E9362 /* MainViewController.h */,
+				07B60D191C449518004E9362 /* MainViewController.m */,
+				07B60D1A1C449518004E9362 /* MainViewController.xib */,
 				078ADBB71C434DF700E79E6D /* Assets.xcassets */,
 				078ADBB91C434DF700E79E6D /* LaunchScreen.storyboard */,
 				078ADBBC1C434DF800E79E6D /* Info.plist */,
@@ -132,6 +178,23 @@
 			path = PLCtestUITests;
 			sourceTree = "<group>";
 		};
+		3F40FF4467497A76B142D63D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B275D0D2237EB118164FC3F4 /* Pods.debug.xcconfig */,
+				F1B29161EFFE7E7F311CA66F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1360B54B7903A8D18F35993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				912B21618F5353B0552EF9F3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 078ADBD51C434DF800E79E6D /* Build configuration list for PBXNativeTarget "PLCtest" */;
 			buildPhases = (
+				407E3991CC9B0FE13F9CE0F2 /* Check Pods Manifest.lock */,
 				078ADBAA1C434DF700E79E6D /* Sources */,
 				078ADBAB1C434DF700E79E6D /* Frameworks */,
 				078ADBAC1C434DF700E79E6D /* Resources */,
+				574F50CF805DE9B78ABA532D /* Embed Pods Frameworks */,
+				4311899E0D4EA9257254422F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +304,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CD80231C4CD59F000E89CD /* ParkViewController.xib in Resources */,
 				078ADBB81C434DF700E79E6D /* Assets.xcassets in Resources */,
+				0726CC951C48ED180048F506 /* SetViewController.xib in Resources */,
+				070C204C1C49DF52009603CA /* OrderViewController.xib in Resources */,
+				07B60D1C1C449518004E9362 /* MainViewController.xib in Resources */,
 				078ADBBB1C434DF700E79E6D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,12 +329,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		407E3991CC9B0FE13F9CE0F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4311899E0D4EA9257254422F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574F50CF805DE9B78ABA532D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		078ADBAA1C434DF700E79E6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				078ADBB61C434DF700E79E6D /* AppDelegate.m in Sources */,
+				070C204B1C49DF52009603CA /* OrderViewController.m in Sources */,
+				07CD80221C4CD59F000E89CD /* ParkViewController.m in Sources */,
+				0726CC981C48FDAB0048F506 /* plcModel.m in Sources */,
+				0726CC941C48ED180048F506 /* SetViewController.m in Sources */,
+				07B60D1B1C449518004E9362 /* MainViewController.m in Sources */,
 				078ADBB31C434DF700E79E6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,8 +519,10 @@
 		};
 		078ADBD61C434DF800E79E6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B275D0D2237EB118164FC3F4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PLCtest/pre.pch";
 				INFOPLIST_FILE = PLCtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yt.PLCtest;
@@ -407,8 +532,10 @@
 		};
 		078ADBD71C434DF800E79E6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B29161EFFE7E7F311CA66F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PLCtest/pre.pch";
 				INFOPLIST_FILE = PLCtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yt.PLCtest;
@@ -483,6 +610,7 @@
 				078ADBD71C434DF800E79E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078ADBD81C434DF800E79E6D /* Build configuration list for PBXNativeTarget "PLCtestTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +619,7 @@
 				078ADBDA1C434DF800E79E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078ADBDB1C434DF800E79E6D /* Build configuration list for PBXNativeTarget "PLCtestUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +628,7 @@
 				078ADBDD1C434DF800E79E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

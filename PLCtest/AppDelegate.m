@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SetViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +20,15 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[SetViewController new]];
+//    if ([NSUserDefaults standardUserDefaults]) {
+//        NSDictionary *initCode = @{@"parkCode":@"",
+//                                   @"takeCode":@"",
+//                                   @"chossesCode":@""
+//                                   };
+//        [[NSUserDefaults standardUserDefaults] setObject:initCode forKey:@"initCode"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//    }
     return YES;
 }
 
